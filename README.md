@@ -1,14 +1,9 @@
-# Angular Trial App
+Introduction
+This is a basic Angular messaging interface built using Angular and TinyMCE. I created this project in July 2025 by following a tutorial from TinyMCE’s blog (https://www.tiny.cloud/blog/create-new-angular-project/) as my first step into Angular development. My goal was to get hands-on experience with Angular components, reactive forms using signals, and integrating third-party libraries like TinyMCE. This project marks the beginning of my Angular journey, and I plan to build many more apps to grow my skills.
 
-This is my first Angular project, built by following a [TinyMCE blog tutorial](https://www.tiny.cloud/blog/create-new-angular-project/). I'm using this project as a starting point for practicing Angular development, and I plan to create more projects as I learn.
-
-## Features
-- Rich text editor using TinyMCE
-- Custom components for input fields and send button
-- LESS-based styling
-
-## Getting Started
-To run this project:
-```bash
-npm install
-ng serve
+Tech Stack
+- Angular CLI v20.0.5
+- TinyMCE Editor (via @tinymce/tinymce-angular)
+- TypeScript
+- LESS
+- HTML & CSS
