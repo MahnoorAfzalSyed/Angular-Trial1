@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@background: rgb(75, 115, 233);
+@padding: 1%;
+@margin: 1em;
+@top: 1em;
+@margin-bottom: 1em;
+
+body {
+  background-color: @background;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    padding-top: @padding;
+    margin-top: @top;
+    margin-bottom: @margin-bottom;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin: @margin;
+    margin-bottom: @margin-bottom;
+}
+
+input {
+    padding: 1em;
+    font-size: 1rem;
+}
+
+.rte {
+    padding-top: @padding;
+    margin-top: @top;
+    margin-bottom: @margin-bottom; 
+}
+
+.send-button {
+  padding: 20px 50px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  display: block;
+  margin: 40px auto 0 auto;
+  border: none;
+  cursor: pointer;
+}
